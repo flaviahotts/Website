@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    }
+
+li {
+    margin: 0 15px;
+}
+
+ul a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+ul a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a {
+    color: rgb(121, 255, 121);
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+nav {
+    color:whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}
+
+nav p {
+    font-weight: bold;
+}
+
+#header-index {
+    height: 100vh;    
+    background: #1b2326 no-repeat bottom/cover url('images/greenbackground.jpg');
+    background-size: 75%;
+    background-attachment: scroll;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: rgb(121, 255, 121);
+    cursor: pointer;
+}
+
+#logoGT3 {
+    margin-right: 0;
+    float: left;
+}
+
+#header-home {
+    height: 100vh;    
+    background: #1B2326 no-repeat bottom/cover url('images/greenbackground.jpg');
+    background-size: 75%;
+    background-attachment: scroll;
+}
+
+#header-aboutus {
+    height: 100vh;    
+    background: #1B2326 no-repeat bottom/cover url('images/greenbackground2.jpg');
+    background-size: 75%;
+    background-attachment: scroll;
+}
+
+#header-aboutus h2 {
+    color: rgb(121, 255, 121);
+}
+
+#header-getstarted {
+    height: 100vh;    
+    background: #1B2326 no-repeat bottom/cover url('images/greenbackground2.jpg');
+    background-size: 75%;
+    background-attachment: scroll;
+}
+
+#header-getstarted h2 {
+    color: rgb(121, 255, 121);
+}
+
+#header-learnmore {
+    height: 100vh;    
+    background: #1B2326 no-repeat bottom/cover url('images/greenbackground2.jpg');
+    background-size: 75%;
+    background-attachment: scroll;
+}
+#header-learnmore h2 {
+    color: rgb(121, 255, 121);
+}
+
+#header-contactus {
+    height: 100vh;    
+    background: #1B2326 no-repeat bottom/cover url('images/greenbackground.jpg');
+    background-size: 75%;
+    background-attachment: scroll;
+
+}#header-contactus h2 {
+    color: rgb(121, 255, 121);
+}
+
+.home-content {
+    color: whitesmoke;
+    max-width: 400px;
+    font-size: 25px;
+    align-self: auto;
+    padding: 30px;
+    margin-top: 10px;
+    margin-left: 130px;
+    text-align: left;    
+   }
+
+.aboutus-content {
+    color: whitesmoke;
+    max-width: 1000px;
+    font-size: 20px;
+    align-self: auto;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 130px;  
+   }
+
+.getstarted-content {
+    color: whitesmoke;
+    max-width: 1000px;
+    font-size: 18px;
+    align-self: auto;
+    padding: 30px;
+    margin-top: 0px;
+    margin-left: 130px;  
+  }
+
+.learnmore-content {
+    color: whitesmoke;
+    max-width: 1000px;
+    font-size: 18px;
+    align-self: auto;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.contactus-content {
+    color: whitesmoke;
+    max-width: 1000px;
+    font-size: 18px;
+    align-self: auto;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 250px;
+   }
+
