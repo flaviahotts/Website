@@ -49,7 +49,7 @@ nav p {
 
 #header-index {
     height: 100vh;    
-    background: #1b2326 no-repeat bottom/cover url('images/greenbackground.jpg');
+    background: #1b2326 no-repeat bottom/cover url('greenbackground.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
@@ -75,14 +75,14 @@ button {
 
 #header-home {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('images/greenbackground.jpg');
+    background: #1B2326 no-repeat bottom/cover url('greenbackground.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
 
 #header-aboutus {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('images/greenbackground2.jpg');
+    background: #1B2326 no-repeat bottom/cover url('greenbackground2.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
@@ -93,7 +93,7 @@ button {
 
 #header-getstarted {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('images/greenbackground2.jpg');
+    background: #1B2326 no-repeat bottom/cover url('greenbackground2.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
@@ -104,7 +104,7 @@ button {
 
 #header-learnmore {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('images/greenbackground2.jpg');
+    background: #1B2326 no-repeat bottom/cover url('greenbackground2.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
@@ -114,7 +114,7 @@ button {
 
 #header-contactus {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('images/greenbackground.jpg');
+    background: #1B2326 no-repeat bottom/cover url('greenbackground.jpg');
     background-size: 75%;
     background-attachment: scroll;
 
