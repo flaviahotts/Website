@@ -9,10 +9,11 @@ body {
     margin: 0;
 }
 
+
 ul {
     list-style: none;
     display: flex;
-    }
+}
 
 li {
     margin: 0 15px;
@@ -37,30 +38,43 @@ a:visited {
 }
 
 nav {
-    color:whitesmoke;
     display: flex;
     justify-content: space-between;
     margin: auto 30px;
 }
 
-nav p {
-    font-weight: bold;
+ul li {
+    color: whitesmoke;
+    display: flex;
+    margin: auto 30px;
+    justify-content: space-between;
+    position: relative;     
+}
+
+ul li::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: rgb(121, 255, 121);
+    position: absolute;
+    left : 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+ul li:hover::after {
+    width: 100%;
 }
 
 #header-index {
     height: 100vh;    
-    background: #1b2326 no-repeat bottom/cover url('greenbackground.jpg');
+    background: #1b2326 no-repeat bottom/cover url('images/greenbackground.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
 
-button {
-    padding: 10px 15px;
-    border-radius: 8px;
-    font-weight: bold;
-    border: 0;
-    background: rgb(121, 255, 121);
-    cursor: pointer;
+#header-index h1 {
+    color: rgb(121, 255, 121);
 }
 
 #logoGT {
@@ -69,20 +83,12 @@ button {
     max-width: 200px;
     max-height: 200px;
     margin-top: 10px;
-    margin-left: 0px;
-      
-}
-
-#header-home {
-    height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('greenbackground.jpg');
-    background-size: 75%;
-    background-attachment: scroll;
+    margin-left: 0px;  
 }
 
 #header-aboutus {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('greenbackground2.jpg');
+    background: #1B2326 no-repeat bottom/cover url('images/greenbackground2.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
@@ -93,7 +99,7 @@ button {
 
 #header-getstarted {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('greenbackground2.jpg');
+    background: #1B2326 no-repeat bottom/cover url('images/greenbackground2.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
@@ -104,21 +110,23 @@ button {
 
 #header-learnmore {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('greenbackground2.jpg');
+    background: #1B2326 no-repeat bottom/cover url('images/greenbackground2.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
+
 #header-learnmore h2 {
     color: rgb(121, 255, 121);
 }
 
 #header-contactus {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('greenbackground.jpg');
+    background: #1B2326 no-repeat bottom/cover url('images/greenbackground.jpg');
     background-size: 75%;
     background-attachment: scroll;
+}
 
-}#header-contactus h2 {
+#header-contactus h2 {
     color: rgb(121, 255, 121);
 }
 
@@ -131,7 +139,7 @@ button {
     margin-top: 10px;
     margin-left: 130px;
     text-align: left;    
-   }
+}
 
 .aboutus-content {
     color: whitesmoke;
@@ -142,7 +150,7 @@ button {
     margin-top: 30px;
     margin-left: 130px;
     margin-right: 250px;  
-   }
+}
 
 .getstarted-content {
     color: whitesmoke;
@@ -151,8 +159,9 @@ button {
     align-self: auto;
     padding: 30px;
     margin-top: 0px;
-    margin-left: 130px;  
-  }
+    margin-left: 130px; 
+    margin-right: 0px; 
+}
 
 .learnmore-content {
     color: whitesmoke;
@@ -172,5 +181,25 @@ button {
     padding: 30px;
     margin-top: 30px;
     margin-left: 250px;
-   }
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(121, 255, 121);
+    border-radius: 8px;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: rgb(68, 77, 68);
+}
+
+.btn-green:active{
+    position:relative;
+    top:5px;
+}
 
