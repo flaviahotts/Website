@@ -68,7 +68,7 @@ ul li:hover::after {
 
 #header-index {
     height: 100vh;    
-    background: #1b2326 no-repeat bottom/cover url('images/greenbackground.jpg');
+    background: #1b2326 no-repeat bottom/cover url('greenbackground.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
@@ -88,7 +88,7 @@ ul li:hover::after {
 
 #header-aboutus {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('images/greenbackground2.jpg');
+    background: #1B2326 no-repeat bottom/cover url('greenbackground2.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
@@ -99,7 +99,7 @@ ul li:hover::after {
 
 #header-getstarted {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('images/greenbackground2.jpg');
+    background: #1B2326 no-repeat bottom/cover url('greenbackground2.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
@@ -110,7 +110,7 @@ ul li:hover::after {
 
 #header-learnmore {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('images/greenbackground2.jpg');
+    background: #1B2326 no-repeat bottom/cover url('greenbackground2.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
@@ -121,7 +121,7 @@ ul li:hover::after {
 
 #header-contactus {
     height: 100vh;    
-    background: #1B2326 no-repeat bottom/cover url('images/greenbackground.jpg');
+    background: #1B2326 no-repeat bottom/cover url('greenbackground.jpg');
     background-size: 75%;
     background-attachment: scroll;
 }
